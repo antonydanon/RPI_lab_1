@@ -1,0 +1,375 @@
+body{
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+/*краткие настройки элемента "текста"*/
+
+
+img{
+    display: block;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*краткие настройки элемента "полоска"*/
+
+
+/*ОБЩИЕ ЭЛЕМЕНТЫ*/
+.block_title {
+       font-family: 'Raleway', sans-serif;
+    padding-top: 110px;
+    margin-bottom: 25px;
+    
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 35px;
+    font-style: normal;
+    color: #363636;
+}
+
+.block_subtitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    font-size: 17px;
+    font-weight: 400;
+    color: #727272;
+   
+    margin-top: 20px;  
+    
+    line-height: 12px;
+    margin-bottom: 80px;
+}
+
+/*---------------------------------------------------*/
+
+/*НАСТРОЙКИ БЛОКА СКРИНОВ*/
+.screenshots{
+
+    margin-top: 50px;
+    height: 675px;/*675*/
+    background-color: #f7f8fa;
+    text-align: center;
+  
+} 
+
+/*Screenshots_IMAGIES*/
+.screenshots_imagies{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 390px;
+    margin-right: 390px;
+   
+    
+}
+ 
+.screenshot_item{
+    width: 30%;
+    
+}
+
+.item_img img{
+    display: block;
+}
+
+
+/*КНОПКИ СКРИНОВ    0 O O      */
+#bullets{
+    position: relative;
+}
+
+.bullets_field{
+    margin-left:  930px;
+    margin-right: 930px;
+    padding-top: 40px;
+}
+
+label{
+    cursor: pointer;
+}
+
+.bullets_field input{
+    display: none;
+}
+
+#active{
+    width: 65px;
+   
+    height: 14px;
+    padding:0;
+      display: flex;
+    justify-content: space-between;
+}
+
+#active label{
+    
+
+    
+    border-radius: 10px;
+    line-height: 14px;
+    height: 14px;
+    width: 14px;
+    
+    background: #94cae6;
+}
+
+#active label:hover{
+    background: #0199b7;
+    border-color: #0199e6 !important;
+}
+
+#bullet_1:checked ~ #active  label:nth-child(1){
+    background: #0199e6;
+    border-color: #0199e6 !important;
+}
+
+#bullet_2:checked ~ #active  label:nth-child(2){
+    background: #0199e6;
+    border-color: #0199e6 !important;
+}
+
+#bullet_3:checked ~ #active  label:nth-child(3){
+    background: #0199e6;
+    border-color: #0199e6 !important;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/*CLIENT PANEL*/
+.clientsPanel{
+    /*для красоты*/
+    height: 800px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.clientsPanel_brands{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+.clientsPanel_review{
+   
+}
+.clientsPanel_review_items{
+    
+    margin-top:75px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+        margin-left: 390px;
+        margin-right: 390px;
+
+}
+.clientsPanel_users_reviews{
+   
+           margin-top:75px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+        margin-left: 390px;
+        margin-right: 390px; 
+
+}
+.user_review_item{
+    display: block;
+    width: 361px;
+    height: 262px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+ background: url(../images/otziv_16.jpg);
+}
+
+.review_text{
+    margin-left: 35px;
+    width:300px;
+    text-align: center;
+    margin-top: 70px;
+    color: #848484;
+}
+
+.clientsPanel_review_names{
+
+    display: flex;
+   
+    justify-content: space-between;
+
+   font-size: 16px;
+    line-height: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    color: #0199e6;
+    margin-top:15px;
+    margin-left:510px;
+    margin-right:530px;
+}
+
+.clientsPanel_review_works{
+
+    display: flex;
+   
+    justify-content: space-between;
+
+   font-size: 13px;
+    line-height: 9px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    margin-top:10px;
+    margin-left:535px;
+    margin-right:535px;
+}
+
+
+
+/*FOOTREGISTRATION PANEL*/
+.footRegistrgation{
+    text-align: center;
+height:450px;
+    
+  background:url("../images/RegFootLayer.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.footRegistration_subtitle{
+    padding-top: 140px;
+     font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    
+}
+
+.footRegistration_title{
+    margin-top: 30px;
+     font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    font-size: 35px;
+    line-height: 25px;
+    
+}
+
+
+
+.foot_button{
+    border: 0;
+border-radius: 2px;
+    margin-top:53px; 
+     
+    background-color: #008ed6;
+    width:184px;
+    height:54px;
+    font-size:16px;
+     font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    line-height: 12px;
+}
+
+.foot_button:hover{
+    cursor: pointer;
+    background-color: #0199b2; 
+}
+
+
+/*FOOT PANEL*/
+
+.foot_questions{
+
+  height:221px ;
+    background-color: #fff;
+}
+
+.questions_title{
+    text-align: center;
+  font-family: 'Raleway', sans-serif;
+     padding: 0;   
+    font-size: 24px;
+    font-weight: 600;
+    color: #323232;
+    line-height: 17px;
+
+    padding-top: 80px;
+}
+
+.questions_contacts{
+   
+   text-align: center;
+    font-family: 'Raleway', sans-serif;
+     padding: 0;   
+    font-size: 17.85px;
+    font-weight: 700;
+    color: #008ed6;
+    
+    
+    margin-top: 30px; 
+}
+
+.questions_link{
+     display: inline-block;
+    justify-content: space-between;
+
+    line-height: 13px;
+    text-decoration: none;
+    color:#008ed6 ;
+    
+}
+
+
+
+.contacts_field{
+    height:285px;
+    background-color: #f7f8fa;
+       text-align: center;
+    
+}
+.contacts{
+  padding-top: 75px; 
+ 
+    display: inline-block; 
+}
+
+.foot_logo{
+  display: flex;
+    justify-content: center;
+  text-decoration: none;
+    
+text-align: center;
+font-family: 'Walkway Black', sans-serif;
+font-size: 35px;
+line-height: 24px;}
+
+.contacts_info{
+    margin-top: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 11px;
+}
+.foot_ico{
+    margin-right: 3px;
+}
+
+.contacts_ico{
+     color: #acacad;
+     text-decoration: none;
+     display: flex;
+    
+    margin-top: 25px;
+    
+    justify-content: center;
+    font-size: 25px;
+
+}
+

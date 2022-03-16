@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#thirdElement{
+    height: 850px;
+    background-color: #ffffff;
+}
+
+#fourthElement{
+    height: 855px;
+    background-color: #f7f8fa;
+}
+
+#fifthElement{
+    height: 970px;
+    background-color: #ffffff;
+}
+
+.mainHeader{
+    padding-top: 50px;
+    text-align: center;
+    color: #323232;
+    font-size: 35pt;
+}
+
+.line{
+    margin-top: 25px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.simpleText{
+    margin-top: 20px;
+    text-align: center;
+    color: #9f9f9f;
+    font-size: 17pt;
+}
+
+#tableOnFourthEl{
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#tableOnFifthEl{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableOnFifthEl{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableOnSixthEl{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerOfCard{
+    height: 100px;
+    width: 360px;
+    background-color: #323232;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card{
+    padding-top: 10px;
+    height: 355px;
+    width: 360px;
+    background-color: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lastLeftTextInCard{
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 16pt;
+    margin-left: 20px;
+}
+
+.buttonSignUp{
+    width: 95px;
+    height: 40px;
+    background-color: #ffffff;
+    border-color: #727272;
+    border-radius: 5px;
+    color: #727272;
+    font-size: 12pt;
+    margin-right: 0px;
+}
+
+.entireCard:hover .buttonSignUp {
+    background-color: #0199e6;
+    border-color: #0199e6;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.entireCard:hover .headerOfCard{
+    background-color: #0199e6;
+}
+
+.entireCard:hover .price{
+    color: #ffffff;
+}
+
+#videoDiv{
+    padding: 0px;
+    text-align: center;
+    margin:  85px auto;
+}
+
+#video{
+    width: 945px;
+    height: 530px;
+}
+
+#check1, #check2, #check3, #check4, #check5, #check6, #check7, #check8, #check9, #check10, #check11, #cross1, #cross2, #cross3, #cross4{
+    font-size: 20px;
+    margin: 0px;
+    color: #323232;
+    float: right;
+    margin-right: 30px;
+}
+
+#message, #camera, #persons{
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    color: #0199e6;
+}
+
+.textOfLastTable{
+    font-size: 17pt;
+}
+
+.partOfCard{
+    width: 360px;
+    padding-top: 5px;
+}
+
+.parOfLastTable{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.leftTextInCard{
+    padding-left: 20px;
+    color: #323232;
+}
+
+.rightTextInCard{
+    text-align: right;
+    padding-right: 30px;
+    color: #323232;
+}
+
+.lineForCard{
+    margin: 10px 0px;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px dotted #ddd;
+    width: 360px;
+}
+
+.mainTextOnCard{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 24pt;
+    color: #ffffff;
+}
+
+.simpleTextOnCard{
+    text-align: center;
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+.cell{
+    margin-bottom: 75px;
+    margin-right: 55px;
+    margin-left: 55px;
+    text-align: center;
+
+}
+
+.fa, .fa-solid1{
+    color: #0199e6;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.headerOfCell{
+    font-size: 20pt;
+    margin-bottom: 30px;
+}
+
+.textOfCell{
+    font-size: 16pt;
+    color: #9f9f9f;
+}
+
+.unit{
+    width: 1920px;
+}
