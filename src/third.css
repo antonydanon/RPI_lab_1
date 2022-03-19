@@ -189,7 +189,7 @@ label{
     font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     font-size: 16px;
- background: url("../images/otziv_16.jpg");
+ background: url("images/otziv_16.jpg");
 }
 
 .review_text{
@@ -239,7 +239,7 @@ label{
     text-align: center;
 height:450px;
     
-  background:url("../images/RegFootLayer.png") center no-repeat;
+  background:url("images/RegFootLayer.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
