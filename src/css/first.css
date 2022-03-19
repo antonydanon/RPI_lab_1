@@ -8,7 +8,7 @@
     padding: 0 0 0 0;
     height: 750px;
     width: 1920px;
-    background-image: url("images/background.png");
+    background-image: url("../images/background.png");
 }
  
 .briefRight{
@@ -30,12 +30,12 @@
     width: 50px;
 }
 
-.fa-brands:hover{
+.fa-brands-ico:hover{
     background-color: black;
     color:white;
 }
 
-.fa-brands{
+.fa-brands-ico{
     background-color: white;
     border-radius: 100%; 
     width: 24px;
