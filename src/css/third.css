@@ -189,7 +189,7 @@ label{
     font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     font-size: 16px;
- background: url("images/otziv_16.jpg");
+ background: url("../images/otziv_16.jpg");
 }
 
 .review_text{
@@ -239,7 +239,7 @@ label{
     text-align: center;
 height:450px;
     
-  background:url("images/RegFootLayer.png") center no-repeat;
+  background:url("../images/RegFootLayer.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -362,7 +362,7 @@ line-height: 24px;}
 }
 
 .contacts_ico{
-
+     color: #acacad;
      text-decoration: none;
      display: flex;
     
@@ -371,9 +371,5 @@ line-height: 24px;}
     justify-content: center;
     font-size: 25px;
 
-}
-
-.fa-brands{
-    background-color: #acacad;
 }
 
