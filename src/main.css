@@ -179,7 +179,6 @@ input:focus{
 
 .browserImage{
     display: block;
-
 }
 
 .pageContent{
@@ -220,10 +219,10 @@ input:focus{
 .fa-gear{
     background-color: rgb(1, 153, 230);
     color:white;
-    
+    width:13px;
     border-radius: 3px;
     padding: 10px;
-    font-size: 10px;
+    font-size: 13px;
 } 
 
 .features{
@@ -268,7 +267,9 @@ input:focus{
     color:white;
     border-radius: 3px;
     padding: 10px;
-    font-size: 10px;  
+    padding-left:12px;
+    font-size: 13px;
+    width:11px;  
 }
 
 .pageContentBriefLeft{
@@ -280,8 +281,9 @@ input:focus{
     color:white;
     border-radius: 3px;
     padding: 10px;
-    margin-top: 5px;
     font-size: 13px;
+    padding-left: 13px;
+    width:10px;
 } 
 
 .fa-video{
@@ -289,6 +291,6 @@ input:focus{
     color:white;
     border-radius: 3px;
     padding: 10px;
-    margin-top: 5px;
     font-size: 13px;  
+    width:13px;
 }
