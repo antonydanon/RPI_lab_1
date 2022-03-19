@@ -359,7 +359,6 @@ line-height: 24px;}
 }
 .foot_ico{
     margin-right: 3px;
-    color: #acacad;
 }
 
 .contacts_ico{
@@ -372,5 +371,9 @@ line-height: 24px;}
     justify-content: center;
     font-size: 25px;
 
+}
+
+.fa-brands{
+    color: #acacad;
 }
 
