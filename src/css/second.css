@@ -40,21 +40,16 @@
 }
 
 #tableOnFourthEl{
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
     margin-top: 80px;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
 }
 
 #tableOnFifthEl{
+    display: flex;
     margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#tableOnFifthEl{
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 }
 
 #tableOnSixthEl{
@@ -73,7 +68,7 @@
 
 .card{
     padding-top: 10px;
-    height: 355px;
+    height: 350px;
     width: 360px;
     background-color: #ffffff;
     margin-left: 15px;
@@ -81,8 +76,8 @@
 }
 
 .lastLeftTextInCard{
+    padding-top: 10px;
     padding-right: 10px;
-    padding-bottom: 5px;
     font-size: 16pt;
     margin-left: 20px;
 }
@@ -95,7 +90,7 @@
     border-radius: 5px;
     color: #727272;
     font-size: 12pt;
-    margin-right: 0px;
+    margin-right: 25px;
 }
 
 .entireCard:hover .buttonSignUp {
@@ -144,8 +139,10 @@
 }
 
 .partOfCard{
+    display: flex;
     width: 360px;
     padding-top: 5px;
+    justify-content: space-between;
 }
 
 .parOfLastTable{
