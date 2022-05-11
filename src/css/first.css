@@ -294,3 +294,8 @@ input:focus{
     font-size: 13px;  
     width:13px;
 }
+
+.buttonGetStarted:disabled:hover{
+    background-color: grey;
+    cursor: default;
+}

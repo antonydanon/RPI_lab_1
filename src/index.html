@@ -24,11 +24,17 @@
     <!мои скрипты>
     <script src="https://kit.fontawesome.com/de5645dbc2.js" crossorigin="anonymous"></script>
 
+
+
     <!скрипты Миши>
     <script src="https://kit.fontawesome.com/699728091c.js" crossorigin="anonymous"></script>
 
+
+
     <!скрипты Артема>
     <script src="https://kit.fontawesome.com/7c488f5232.js" crossorigin="anonymous"></script>
+
+
 
     <title>LandX</title>
 </head>
@@ -41,7 +47,7 @@
             <a href = "">
                 <img class="logo" src="images/logo.png" alt="logo">
             </a>
-            <div class="icons">
+            <div id="icons" class="icons">
                 <a href="">
                     <i id="facebookIcon" class="fa-brands-ico fa-brands fa-facebook-f"></i>
                 </a>
@@ -53,16 +59,16 @@
                 </a>
             </div>
         </header>
-        <article class="mainHeading">
+        <article id="mainHeading" class="mainHeading">
             <div class="mainText">Get the Best <span class ="wordSolution">Solution</span> for Your Business</div>
             <div class="text2">Accelerator photo sharing business school drop out ramen
                 hustle crush it revenue traction platforms. Coworking viral landing page user base.</div>
         </article>
-        <form class="mainForm">
-            <input class="inputName" placeholder="Your Name">
-            <input class="inputMail" placeholder="Your E-Mail">
-            <input class="inputPhone" placeholder="Phone number">
-            <button class="buttonGetStarted">GET STARTED</button>
+        <form id="mainForm" class="mainForm">
+            <input id="inputName" class="inputName" oninput="checkForm()" placeholder="Your Name">
+            <input id="inputMail" class="inputMail" oninput="checkForm()" placeholder="Your E-Mail">
+            <input id="inputPhone" class="inputPhone" oninput="checkForm()" placeholder="Phone number">
+            <button type="button" id="buttonGetStarted" disabled="disabled" class="buttonGetStarted" onclick="clickForm()">GET STARTED</button>
         </form>
         <div class="subHeading">
             <div class="textUnderInputs">Register Now and Get FREE Trial</div>
@@ -330,7 +336,16 @@
             <hr class="line" noshade color="#5698e3">
             <p class="simpleText">Term sheet convertible note colluding bootstrapping.</p>
             <div id="videoDiv">
-                <video id="video" src="videos/video.mp4" controls></video>
+                <video id="videoPlayer" onTimeUpdate="progressUpdate()" src="videos/video.mp4"></video>
+                <div>
+                    <button class="playerButton" onclick="play()">Play</button>
+                    <button class="playerButton" onclick="pause()">Pause</button>
+                    <button class="playerButton" onclick="stop()">Stop</button>
+                    <button class="playerButton" onclick="speedUp()">Speed</button>
+                    <button class="playerButton" onclick="slowDown()">Slow</button>
+                    <button class="playerButton" onclick="normalSpeed()">Normal</button>
+                </div>
+                </div>
             </div>
             <div>
                 <table id="tableOnSixthEl">
@@ -398,32 +413,34 @@
 
 
 
-            <div class="screenshots_imagies">
-                <div clacc="screenshot_item">
-                    <div class="item_img" >
+            <div class="slider">
+                <div class="screenshots_imagies">
+                    <div class="swert">
                         <img  src="images/Screenshot_1.jpg" alt="">
                     </div>
-                </div>
-                <div clacc="screenshot_item">
-                    <div class="item_img">
-                        <img src="images/Screenshot_2.jpg" alt="">
-                    </div>
-                </div>
-                <div clacc="screenshot_item">
-                    <div class="item_img">
+                    <div class="swert">
+                        <img src="images/Screenshot_2.jpg" alt=""></div>
+                    <div class="swert">
                         <img src="images/Screenshot_3.jpg" alt="">
                     </div>
+                    <div class="swert">
+                        <img  src="images/Screenshot_1.jpg" alt="">
+                    </div>
+                    <div class="swert">
+                        <img src="images/Screenshot_2.jpg" alt="">
+                    </div>
+
                 </div>
             </div>
-
 
             <div class="bullets_field">
 
                 <article id="bullets">
 
-                    <input checked type="radio" name="bullets" id="bullet_1">
+                    <input  type="radio" name="bullets" id="bullet_1">
                     <input  type="radio" name="bullets"  id="bullet_2">
                     <input  type="radio" name="bullets" id="bullet_3">
+
 
 
 
@@ -579,5 +596,9 @@
         </article>
     </div>
 
+
+    <script src="js/second.js"></script>
+    <script src="js/first.js"></script>
+    <script src="js/third.js"></script>
 </body>
 </html>

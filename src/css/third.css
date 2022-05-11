@@ -60,23 +60,26 @@ p{
 } 
 
 /*Screenshots_IMAGIES*/
-.screenshots_imagies{
-    display: flex;
-    justify-content: space-between;
+.slider{
+    width: 1140px;
     margin-left: 390px;
     margin-right: 390px;
-   
-    
+    overflow: hidden;
+
 }
- 
-.screenshot_item{
-    width: 30%;
-    
+.swert{
+    margin-right:30px;
+}
+/*Screenshots_IMAGIES*/
+.screenshots_imagies{
+    position: relative;
+    display: flex;
+
+    left:390px;
+
+    transition: all ease 1s;
 }
 
-.item_img img{
-    display: block;
-}
 
 
 /*КНОПКИ СКРИНОВ    0 O O      */
